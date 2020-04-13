@@ -1,0 +1,14 @@
+#refresh walkthrough of bandit pre OSCP
+@bandit.labs.overthewire.org -p 2220 -B eth1
+
+
+
+2
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+
+3
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
+ssh bandit3@bandit.labs.overthewire.org -p 2220 -B eth1
+4
+
