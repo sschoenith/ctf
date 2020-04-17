@@ -1,0 +1,31 @@
+python natas 11-12 testing data
+>>> defaultData = {"showpassword":"no", "bgcolor":"#ffffff"}
+>>> newData = {"showpassword":"yes", "bgcolor":"#ffffff"}
+
+
+>>> print(json.dumps(newData))
+{"showpassword": "yes", "bgcolor": "#ffffff"}
+>>> print(json.dumps(newData,separators=(',', ':')))
+{"showpassword":"yes","bgcolor":"#ffffff"}
+>>> print(json.dumps(newData,separators=(',', ':'), ensure_ascii=False))
+{"showpassword":"yes","bgcolor":"#ffffff"}
+>>> len(json.dumps(newData))
+45
+>>> len(json.dumps(newData,separators=(',', ':')))
+42
+>>> len(json.dumps(newData,separators=(',', ':'), ensure_ascii=False))
+42
+
+print(json.dumps(newData))
+print(json.dumps(newData,separators=(',', ':')))
+print(json.dumps(newData,separators=(',', ':'), ensure_ascii=False))
+len(json.dumps(newData))
+len(json.dumps(newData,separators=(',', ':')))
+len(json.dumps(newData,separators=(',', ':'), ensure_ascii=False))
+
+print(json.dumps(defaultData))
+print(json.dumps(defaultData,separators=(',', ':')))
+print(json.dumps(defaultData,separators=(',', ':'), ensure_ascii=False))
+len(json.dumps(defaultData))
+len(json.dumps(defaultData,separators=(',', ':')))
+len(json.dumps(defaultData,separators=(',', ':'), ensure_ascii=False))
